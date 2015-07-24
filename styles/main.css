@@ -21,10 +21,10 @@ h6 {
     font-weight: 700;
 }
 
-p a, 
-p a:active, 
-p a:hover, 
-p a:link, 
+p a,
+p a:active,
+p a:hover,
+p a:link,
 p a:visited {
     color: #ff9933;
 }
@@ -46,7 +46,7 @@ p a:visited {
 .intro-message {
     position: relative;
     padding-top:10%;
-    padding-bottom:15%;   
+    padding-bottom:15%;
 }
 
 .intro-message .main-message > h1 {
@@ -190,7 +190,7 @@ p.copyright {
     float:none;
     box-sizing:border-box;
 }
-#mc_embed_signup_bot form, 
+#mc_embed_signup_bot form,
 #mc_embed_signup form {
     text-align: center;
 }
@@ -225,8 +225,8 @@ p.copyright {
 #team .center-block{
     width:50%;
 }
-.nav-links a, 
-.nav-links a:hover, 
+.nav-links a,
+.nav-links a:hover,
 .nav-links a:link {
     color:#f8f8f8;
 }
@@ -326,26 +326,26 @@ a.ks-link, a.ks-link:active, a.ks-link:hover, a.ks-link:link, a.ks-link:visited 
 @media only screen and (max-width : 480px) {
     .ks-link-central img {
         width:200px;
-    } 
+    }
 
 }
-   
+
     /* responsive first */
-    /* Custom, iPhone Retina */ 
+    /* Custom, iPhone Retina */
     @media only screen and (min-width : 320px) {
         .tagline {
             display:inline-block;
             font-size:0.6em;
             max-width:250px;
-        }        
+        }
     }
 
-    /* Extra Small Devices, Phones */ 
+    /* Extra Small Devices, Phones */
     @media only screen and (min-width : 480px) {
         .tagline {
             font-size:0.8em;
             max-width:inherit;
-        }  
+        }
          .collage .hover.img-wrap{
              position:absolute;
             float:none;
@@ -354,7 +354,7 @@ a.ks-link, a.ks-link:active, a.ks-link:hover, a.ks-link:link, a.ks-link:visited 
             margin-top:-50px;
             margin-left:-30px;
             border:2px solid #fff;
-        }    
+        }
         .collage .hover.img-wrap img {
             width:100%;
             position:relative;
@@ -362,11 +362,11 @@ a.ks-link, a.ks-link:active, a.ks-link:hover, a.ks-link:link, a.ks-link:visited 
     }
 
     /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {        
+    @media only screen and (min-width : 768px) {
         .tagline {
             max-width:200px;
             margin-top:-10px;
-        } 
+        }
     }
 
     /* Medium Devices, Desktops */
@@ -379,7 +379,7 @@ a.ks-link, a.ks-link:active, a.ks-link:hover, a.ks-link:link, a.ks-link:visited 
             font-size:1em;
             max-width:inherit;
             margin-top:inherit;
-        } 
+        }
     }
 
     /* Large Devices, Wide Screens */
@@ -387,29 +387,52 @@ a.ks-link, a.ks-link:active, a.ks-link:hover, a.ks-link:link, a.ks-link:visited 
 
     }
 
+/*
+Excercize 1: re-write section below using:
+1: nesting
+2: variables (color)
+4: mixin (border-radius)
+*/
 
-.navbar-collapse ul li a.kickstarter{
-	text-shadow:0 0 transparent;
-	background:#2BDE73;
-	padding:3px 12px;
-	margin:10px 10px 10px 0;
-	-webkit-border-radius:40px;
-	-moz-border-radius:40px;
-	-ms-border-radius:40px;
-	-o-border-radius:40px;
-	border-radius:40px;
-	color:#fff;
-	border:2px solid transparent}
+/* Excercize 2: using section below
+1: create btn-base class and extend
+2: extend "shop" menu item from btn-base
+3: change background to #030200
+*/
 
-.navbar-collapse ul li a.kickstarter:hover{	background:#fff;
-	text-shadow:0 0 transparent;
-	color:#2BDE73}
+.navbar-collapse ul li a.kickstarter {
+    color:#fff;
+    background:#2BDE73;
+    text-shadow:0 0 transparent;
+    border: 2px solid transparent;
+    padding: 3px 12px;
+    margin: 10px 10px 10px 0;
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    -ms-border-radius:40px;
+    -o-border-radius:40px;
+    border-radius:40px;
+}
+
+.navbar-collapse ul li a.kickstarter:hover{
+    background: #fff;
+    text-shadow: 0 0 transparent;
+    color:#2BDE73;
+}
 
 .navbar-collapse ul li a.kickstarter:active{
-	border-color:#76cc1e;
-	background:transparent;
-	color:#2BDE73}
+    color:#2BDE73;
+    background: transparent;
+    border-color: #2BDE73;
+}
 
+/*
+.navbar-collapse ul li a.shop{
+    background: yellow;
+}
+*/
+
+/**************************************************/
 .intro-header {
     background: url(../img/intro-bg-napkin.jpg) no-repeat center center;
 }
@@ -427,51 +450,51 @@ a.ks-link, a.ks-link:active, a.ks-link:hover, a.ks-link:link, a.ks-link:visited 
 .col-lg-4.ajc_padding,
 .col-md-4.ajc_padding,
 .col-sm-4.ajc_padding {
-	padding-right:2px;
-	padding-left:2px;
-	padding-top:2px;
-	padding-bottom:2px;
-	}
+    padding-right:2px;
+    padding-left:2px;
+    padding-top:2px;
+    padding-bottom:2px;
+    }
 
 .col-lg-6.ajc_padding,
 .col-xs-6.ajc_padding {
-	padding-right:2px;
-	padding-left:2px;
-	padding-top:2px;
-	padding-bottom:2px;
-	}
+    padding-right:2px;
+    padding-left:2px;
+    padding-top:2px;
+    padding-bottom:2px;
+    }
 
 .col-lg-3.ajc_padding {
-	padding-right:2px;
-	padding-left:2px;
-	padding-top:2px;
-	padding-bottom:2px;
-	}
+    padding-right:2px;
+    padding-left:2px;
+    padding-top:2px;
+    padding-bottom:2px;
+    }
 
 
 .col-lg-2.ajc_padding {
-	padding-right:2px;
-	padding-left:2px;
-	padding-top:2px;
-	padding-bottom:2px;
-	}
+    padding-right:2px;
+    padding-left:2px;
+    padding-top:2px;
+    padding-bottom:2px;
+    }
 
 
 .ajc_padding_pic {
-	height:4px;
-	width:100%;
-	}
+    height:4px;
+    width:100%;
+    }
 
 #ajc_meet {
-	background-color: #FFF;
-	display: none;
-	}
+    background-color: #FFF;
+    display: none;
+    }
 
 
 #ajc_new_dev {
-	background-color: #FFF;
-	display: none;
-	}
+    background-color: #FFF;
+    display: none;
+    }
 
 
 
