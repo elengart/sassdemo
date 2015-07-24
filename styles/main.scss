@@ -1,0 +1,478 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+p a,
+p a:active,
+p a:hover,
+p a:link,
+p a:visited {
+    color: #ff9933;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.intro-message {
+    position: relative;
+    padding-top:10%;
+    padding-bottom:15%;
+}
+
+.intro-message .main-message > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.intro-message .main-message > h3 {
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+
+@media(max-width:767px) {
+    .intro-message {
+        padding-bottom: 15%;
+    }
+
+    .intro-message .main-message > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.network-name {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+.banner {
+    padding: 100px 0;
+    color: #f8f8f8;
+    background: url(../img/banner-bg.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.banner h2 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    font-size: 3em;
+}
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+@media(max-width:767px) {
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+p.copyright {
+    margin: 15px 0 0;
+}
+
+#mc_row > div {
+    float: none;
+    margin: 0 auto;
+}
+
+#mc_embed_signup_bot,
+#mc_embed_signup {
+    background: rgba(255,255,255,0.2);
+    clear: left;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 auto;
+    float:none;
+    box-sizing:border-box;
+}
+#mc_embed_signup_bot form,
+#mc_embed_signup form {
+    text-align: center;
+}
+
+#mc_embed_signup_bot input,
+#mc_embed_signup input {
+    border: 1px solid #999;
+    -webkit-appearance: none;
+    width: 100%;
+    margin: 5px 0;
+    color: #999;
+    text-align: middle;
+    font-weight: normal;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+#mc_embed_signup_bot .button,
+#mc_embed_signup .button {
+    background-color:#ff9933;
+}
+
+#mc_embed_signup_bot .button:hover,
+#mc_embed_signup .button:hover {
+    background-color:#ffccaa;
+}
+
+#team .img-circle {
+    background-color:#ff9966;
+    margin:5px;
+}
+#team .center-block{
+    width:50%;
+}
+.nav-links a,
+.nav-links a:hover,
+.nav-links a:link {
+    color:#f8f8f8;
+}
+.tagline {
+    display:none;
+    font-weight:normal;
+    font-size: 1.4em;
+    float:left;
+}
+.info-box {
+    background: rgba(255,255,255,0.2);
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 0;
+}
+.info-box {
+    font-weight:normal;
+}
+.info-box h4 {
+    margin-top :0px;
+}
+
+#ks-link-central img{
+    padding: 5px 0;
+}
+
+.info-box a, .info-box  a:active, .info-box a:hover, .info-box a:link, .info-box a:visited {
+    color : #ff9933;
+}
+
+a.ks-link, a.ks-link:active, a.ks-link:hover, a.ks-link:link, a.ks-link:visited {
+    color : #00cc66;
+}
+
+/* pins */
+.pinholder {
+    position:absolute;
+    left:2px;
+    bottom:2px;
+}
+
+/* scroll to top */
+
+.scroll-top-wrapper {
+    display:block;
+    position: fixed;
+    opacity: 0;
+    overflow: hidden;
+    text-align: center;
+    z-index: 99999999;
+    background-color: #777777;
+    color: #eeeeee;
+    width: 50px;
+    height: 48px;
+    line-height: 48px;
+    right: 15px;
+    bottom: 15px;
+    padding-top: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+    background-color: #888888;
+}
+.scroll-top-wrapper.show {
+    cursor:pointer;
+    opacity: 0.5;
+}
+.scroll-top-wrapper i.fa {
+    line-height: inherit;
+}
+
+.sp {
+    background: url(../img/sp48.png) no-repeat center center;
+    z-index:99999999999;
+}
+.collage .img-wrap {
+    width:100%;
+}
+
+/* no etsy icon in font awesome?! */
+.fa-etsy:before {
+    content:'E';
+    font-family: serif;
+    font-weight:bold;
+
+}
+
+@media only screen and (max-width : 480px) {
+    .ks-link-central img {
+        width:200px;
+    }
+
+}
+
+    /* responsive first */
+    /* Custom, iPhone Retina */
+    @media only screen and (min-width : 320px) {
+        .tagline {
+            display:inline-block;
+            font-size:0.6em;
+            max-width:250px;
+        }
+    }
+
+    /* Extra Small Devices, Phones */
+    @media only screen and (min-width : 480px) {
+        .tagline {
+            font-size:0.8em;
+            max-width:inherit;
+        }
+         .collage .hover.img-wrap{
+             position:absolute;
+            float:none;
+            width:150%;
+            z-index:100000;
+            margin-top:-50px;
+            margin-left:-30px;
+            border:2px solid #fff;
+        }
+        .collage .hover.img-wrap img {
+            width:100%;
+            position:relative;
+        }
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+        .tagline {
+            max-width:200px;
+            margin-top:-10px;
+        }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+        .info-box{
+            min-height: 250px;
+            max-width:auto;
+        }
+        .tagline {
+            font-size:1em;
+            max-width:inherit;
+            margin-top:inherit;
+        }
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+    }
+
+.navbar-collapse ul li a.kickstarter{
+    text-shadow:0 0 transparent;
+    background:#2BDE73;
+    padding:3px 12px;
+    margin:10px 10px 10px 0;
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    -ms-border-radius:40px;
+    -o-border-radius:40px;
+    border-radius:40px;
+    color:#fff;
+    border:2px solid transparent}
+
+.navbar-collapse ul li a.kickstarter:hover{	background:#fff;
+    text-shadow:0 0 transparent;
+    color:#2BDE73}
+
+.navbar-collapse ul li a.kickstarter:active{
+    border-color:#76cc1e;
+    background:transparent;
+    color:#2BDE73}
+
+.intro-header {
+    background: url(../img/intro-bg-napkin.jpg) no-repeat center center;
+}
+
+.banner {
+    background: url(../img/wine-banner.jpg) no-repeat center center;
+}
+
+.intro-message {
+    position: relative;
+    padding-top: 12%;
+    padding-bottom: 12%;
+}
+
+.col-lg-4.ajc_padding,
+.col-md-4.ajc_padding,
+.col-sm-4.ajc_padding {
+    padding-right:2px;
+    padding-left:2px;
+    padding-top:2px;
+    padding-bottom:2px;
+    }
+
+.col-lg-6.ajc_padding,
+.col-xs-6.ajc_padding {
+    padding-right:2px;
+    padding-left:2px;
+    padding-top:2px;
+    padding-bottom:2px;
+    }
+
+.col-lg-3.ajc_padding {
+    padding-right:2px;
+    padding-left:2px;
+    padding-top:2px;
+    padding-bottom:2px;
+    }
+
+
+.col-lg-2.ajc_padding {
+    padding-right:2px;
+    padding-left:2px;
+    padding-top:2px;
+    padding-bottom:2px;
+    }
+
+
+.ajc_padding_pic {
+    height:4px;
+    width:100%;
+    }
+
+#ajc_meet {
+    background-color: #FFF;
+    display: none;
+    }
+
+
+#ajc_new_dev {
+    background-color: #FFF;
+    display: none;
+    }
+
+/* CSS with superpowers */
+
+// Sass is completely compatible
+// with all versions of CSS
