@@ -388,13 +388,13 @@ a.ks-link, a.ks-link:active, a.ks-link:hover, a.ks-link:link, a.ks-link:visited 
     }
 
 /*
-Excercize 1: re-write section below using:
+Exercize 1: re-write section below using:
 1: nesting
 2: variables (color)
 4: mixin (border-radius)
 */
 
-/* Excercize 2: using section below
+/* Exercize 2: using section below
 1: create btn-base class and extend
 2: extend "shop" menu item from btn-base
 3: change background to #030200
